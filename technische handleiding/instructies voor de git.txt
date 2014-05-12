@@ -1,0 +1,19 @@
+hoe upload je een file naar Bonobo Git Server:
+
+- Eerst ga je naar de map test3
+- Daarna type je ls om te kijken welke bestanden er in de map staan
+- Dan type je in de GIT-BASH: git init om het map te initializen
+- Dan type je git add * om de bestanden toe te voegen
+- Dan type je in git commit -m "bijv. test voor het uploaden"
+- Dan type je in git push -u origin master om het bestand te uploaden naar je webserver
+- Tijdens het pushen moet je je gebruikersnaam en wachtwoord van de Github server intypen
+- En als alles goed is gegaan is het bestand nu geupload naar je webserver 
+- Om te kijken of het werkt ga je naar je localhost van Bonobo, voor mij is het: http:github.com/Gerali/Project
+
+Als je een nieuwe file hebt aangemaakt in je map en je wilt het pushen:
+
+dan type je in de Git command: git fetch en daarna git pull
+
+
+
+
