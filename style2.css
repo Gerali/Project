@@ -8,10 +8,8 @@
     font-weight: normal;
     font-style: normal;
 }
- <!--Hiermee kun je de drop down menu verplaatsen naar waar je het wilt.-->
-.ca-menu{ 
-	padding-left: 50px;
-	margin-left: 50px;
+.ca-menu{
+    margin-left: 10px auto;
     width: 400px;
 	position: left;
 }
@@ -35,7 +33,6 @@
 .ca-menu li:last-child{
     margin-bottom: 0px;
 }
-
 .ca-menu li a{
     text-align: left;
     width: 100%;
@@ -44,11 +41,9 @@
     color: #333;
     position: relative;
 }
-
-
 .ca-icon{
     font-family: 'WebSymbolsRegular', cursive;
-    font-size: 10px;
+    font-size: 20px;
     text-shadow: 0px 0px 1px #333;
     line-height: 50px;
     position: absolute;
@@ -96,7 +91,7 @@
 }
 .ca-menu li:hover .ca-main{
     opacity: 1;
-    color:#c35f5d;
+    color:#3561b2;
     -webkit-animation: moveFromTop 300ms ease-in-out;
     -moz-animation: moveFromTop 300ms ease-in-out;
     -ms-animation: moveFromTop 300ms ease-in-out;
