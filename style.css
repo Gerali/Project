@@ -15,27 +15,31 @@ section{
 	text-align: center;
 	color: #F5F4F1;
 	text-shadow: 2px 2px 2px #FFFFFF;
-	box-shadow: 0 0 5px 3px #000000; 
+	box-shadow: 0 0 5px 1.5px #0067D2; 
 }
 
 h1{
-	font-size: 30pt;
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 2px #008EFE;
 }
 
 
 footer{
 	margin: 0 auto;
 	padding: 0px 0;
-	width: 650px;
+	width: 590px;
 	text-align: center;
 	color: #F5F4F1;
-	text-shadow: 2px 2px 2px #FFFFFF;
-	font-size: 16pt;
+	text-shadow: 2px 2px 2px #008EFE;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header{
 	margin: 0px;
 	padding: 10px;
+	width: 1685px;
 	background-color: #21211F;
 	color: #F5F4F1;
 	text-align: center;
@@ -72,13 +76,15 @@ p{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding-top: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 #cssmenu{
-	width: auto;
-	font-family: Calibri;
+	width: 1705px;
+	font-family: 'Open Sans', sans-serif;
 	color: ffffff;
+	padding-bottom: 10px;
 }
 
 #cssmenu.align-right ul li{
@@ -139,12 +145,12 @@ p{
 	bottom: 10px;
 }
 
-/* geeft de effect aan de blokken van de navbar */
+/* geeft de effect aan de blokken van de navbar en de tekst*/
 #cssmenu ul li a{
 	display: block;
 	padding: 20px 40px;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 15px;
 	text-transform: uppercase;
 	transition: 300ms;
 	color: #ffffff;
@@ -175,5 +181,169 @@ p{
 	background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
 	background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
 	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset 'UTF-8';
+
+#cssmenu2,
+#cssmenu2 ul,
+#cssmenu2 li,
+#cssmenu2 a{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	position: relative;
+}
+
+#cssmenu2{
+	width: 250px;
+	border-bottom: 4px solid #656659;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* geeft de hoogte aan van de blokken*/
+#cssmenu2 a{
+	line-height: 1.3;
+}
+
+/* geeft de kleuren aan voor de menu*/
+#cssmenu2 > ul > li:first-child{
+	background: #66665e;
+	background: -moz-linear-gradient(#66665e 0%, #45463d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66665e), color-stop(100%, #45463d));
+	background: -webkit-linear-gradient(#66665e 0%, #45463d 100%);
+	background: linear-gradient(#66665e 0%, #45463d 100%);
+	border: 1px solid #45463d;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+
+#cssmenu2 > ul > li:first-child > a{
+	padding: 15px 10px;
+	background: url(pattern.png) top left repeat;
+	border: none;
+	border-top: 1px solid #818176;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	text-shadow: 0 -1px 1px #000000;
+}
+
+#cssmenu2 > ul > li:first-child > a > span{
+	padding: 0;
+}
+
+#cssmenu2 > ul > li:first-child:hover{
+	background: #66665e;
+	background: -moz-linear-gradient(#66665e 0%, #45463d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66665e), color-stop(100%, #45463d));
+	background: -webkit-linear-gradient(#66665e 0%, #45463d 100%);
+	background: linear-gradient(#66665e 0%, #45463d 100%);
+}
+
+/* geeft de kleur van de blokken in het menu*/
+#cssmenu2 > ul > li{
+	background: #1691D8;
+	background: -moz-linear-gradient(#1691D8 0%, #01607b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1691D8), color-stop(100%, #01607b));
+	background: -webkit-linear-gradient(#1691D8 0%, #01607b 100%);
+	background: linear-gradient(#1691D8 0%, #01607b 100%);
+}
+
+#cssmenu2 > ul > li:hover{
+	background: #027c9e;
+	background: -moz-linear-gradient(#027c9e 0%, #01546b 100%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #027c9e), color-stop(100%, #01546b));
+	background: -webkit-linear-gradient(#027c9e 0%, #01546b 100%);
+	background: linear-gradient(#027c9e 0%, #01546b 100%);
+}
+
+/* geeft de 3 hoofdblokken in de menu de randen en een witte tekst kleur*/
+#cssmenu2 > ul > li > a {
+	font-size: 14px;
+	display: block;
+	background: url(pattern.png) top left repeat;
+	color: #ffffff;
+	border: 1px solid #014d61;
+	border-top: none;
+	text-shadow: 0 -1px 1px #001116;
+}
+
+/* maakt de hoofdblokken wat breder en een mooier effect*/
+#cssmenu2 > ul > li > a > span{
+	display: block;
+	padding: 12px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#cssmenu2 > ul > li > a:hover{
+	text-decoration: none;
+}
+
+#cssmenu2 > ul > li.active{
+	border-bottom: none;
+}
+
+#cssmenu2 > ul > li.has.sub > a span{
+	background: url(icon_plus.png) 96% center no-repeat;
+}
+
+#cssmenu2 > ul > li.has.sub.active > a span{
+	background: url(icon_minus.png) 96% center no-repeat;
+}
+
+/* de sub-menu*/
+
+
+#cssmenu2 ul ul li{
+	padding: 0;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: none;
+	background: #f7f7f7;
+	background: -moz-linear-gradient(#f7f7f7 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ececec));
+	background: -webkit-linear-gradient(#f7f7f7 0%, #ececec 100%);
+	background: linear-gradient(#f7f7f7 0%, #ececec 100%);
+}
+
+#cssmenu2 ul ul li:last-child{
+	border-bottom: none;
+}
+
+#cssmenu2 ul ul a{
+	padding: 10px 10px 10px 25px;
+	display: block;
+	color: #676767;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#cssmenu2 ul ul a:before{
+	content: '»';
+	position: absolute;
+	left: 10px;
+	color: #0288ad;
+}
+
+#cssmenu2 ul ul a:hover{
+	color: #0288ad;
 }
 
