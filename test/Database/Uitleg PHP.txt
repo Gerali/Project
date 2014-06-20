@@ -1,12 +1,10 @@
 Onthouden:
-PHP
 if(isset($_POST['tekstNaam']))
 Altijd eerst met een kleine letter beginnen en daarna een grootte.
 $tekstNaam = $_POST['tekstNaam'];
 $sql='Dit kun je vinden in de PHP Database(Phpmyadmin)'
 mysqli_query($con, $sql);
 
-HTML
 Formuliertje
 <form method="POST">
 Kopnaam: <input type="text" name="kopNaam"> <br />

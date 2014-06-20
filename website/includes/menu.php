@@ -1,42 +1,6 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<title>Wikiwijs</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-	
-	
-	
-</head>
-<body>
-
-<header>
-	<h1>Welkom op Landstede Harderwijk Wikiwijs</h1>
-</header>
-
-<div id='cssmenu'>
-	<ul>
-		<li class=''><a href='opdracht wikiwijs.html'><span>Home</span></a></li>
-		<li><a href='over.html'><span>Over</span></a></li>
-		<li><a href='informatie.html'><span>Informatie</span></a></li>
-		<li class='last'><a href='contact.html'><span>Contact</span></a></li>
-	</ul>
-</div>
-
-
-
-
-
-
-<div id="tab" class="tab-pane active">
-<h2>Welkom!</h2>
-<p>Dit is de nieuwe website van wikiwijs</p>
-<p>blaknksnaskdnaskdnaskdnaksn</p>
-</div>
-
 <div id='cssmenu2'>
 	<ul>
-		<li class='active'><a href='#'><span>Wikiwijs Inhoud</span></a></li>
+		<li class='active'><a href='opdracht wikiwijs.html'><span>Wikiwijs inhoud</span></a></li>
 		<li class='has-sub'><a href='ictlandstede.html'><span>ICT opleidingen Landstede Harderwijk</span></a>
 			<ul>
 				<li><a href='medewerkersict.html'><span>Medewerkers ICT Harderwijk</span></a></li>
@@ -70,30 +34,3 @@
 		<li class='has-sub'><a href='colofon.html'><span>Colofon</span></a>
 	</ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section>
-<footer>
-	Copyright &copy; 2014|Landstede Harderwijk Wikiwijs|Alle rechten voorbehouden|V 0.1
-</footer>
-</section>
-</body>
-</html>
